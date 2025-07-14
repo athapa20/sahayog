@@ -1,0 +1,72 @@
+.contact-container h1 {
+  color: #050676;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.contact-container a {
+  color: #000000;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.social-links a {
+  color: #f2de52;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: #fdfdfd;
+}
+
+.social-links {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: #050676;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.social-button .icon {
+  font-size: 20px;
+}
+
+.social-button:hover {
+  opacity: 0.85;
+}
+
+.img {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.img img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.img img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(5, 6, 118, 0.25);
+}

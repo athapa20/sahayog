@@ -1,0 +1,134 @@
+.donate-page h1 {
+  color: #050676;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.donate-page .intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.donate-page .donate-gallery {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.donate-page .donate-gallery h2 {
+  color: #050676;
+  margin-bottom: 1rem;
+}
+
+.donate-page .gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.donate-page .gallery-row img {
+  max-width: 370px;
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.donate-page .gallery-row img:hover {
+  transform: scale(1.05);
+}
+
+.donate-page .donation-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.donate-page .donation-card {
+  border: 2px solid #050676;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: white;
+  color: #050676;
+  box-shadow: 0 2px 8px rgba(5, 6, 118, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.donate-page .donation-card:hover {
+  box-shadow: 0 6px 20px rgba(5, 6, 118, 0.25);
+  transform: translateY(-5px);
+}
+
+.donate-page .donation-card h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+/* Donate button */
+.donate-page .donate-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #050676;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.donate-page .donate-button:hover {
+  background-color: #3333aa;
+}
+
+/* Campaigns section */
+.donate-page .campaigns {
+  margin-top: 3rem;
+  text-align: left;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.donate-page .campaigns h2 {
+  color: #050676;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.donate-page .campaigns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.donate-page .campaigns li {
+  margin-bottom: 0.75rem;
+}
+
+.donate-page .campaigns a {
+  color: #050676;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.donate-page .campaigns a:hover {
+  color: #000099;
+}

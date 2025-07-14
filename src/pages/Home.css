@@ -1,0 +1,72 @@
+.home-container {
+  font-family: sans-serif;
+}
+
+.welcome-heading {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.welcome-heading h1 {
+  background-color: #050676;
+  color: #f2d500;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px;
+}
+
+.video {
+  width: 1000px;
+  height: 450px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.home-content {
+  background: #fff;
+  padding: 20px 10px;
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.goals {
+  background-color: #050676;
+  color: #f2d500;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.goals h2 {
+  margin-bottom: 50px;
+}
+
+.goals-grid {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.goal-item {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.goal-number {
+  font-size: 2rem;
+  color: #f2de52;
+  padding: 10px 5px;
+}
+
+.goal-label {
+  color: white;
+  padding: 10px 5px;
+}
