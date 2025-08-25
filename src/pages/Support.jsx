@@ -9,7 +9,8 @@ export default function Support() {
       <h1>Support</h1>
 
       <p className="intro">
-        Your generous donations enable us to continue supporting animals in need. Every contribution, no matter the size, makes a significant impact in providing food, shelter, medical care, and love to countless animals waiting for a second chance. Your kindness helps us rescue, rehabilitate, and find forever homes for those who cannot speak for themselves. Together, we can create a better future for these vulnerable creatures. Please explore the donation options below to join us in making a real difference—your support truly matters to every paw and whisker we care for.
+        Your generous donations enable us to continue supporting animals in need. Every contribution, no matter the size, makes a significant impact in providing food, shelter, medical care, and love to countless animals waiting for a second chance.
+        Your kindness helps us rescue, rehabilitate, and find forever homes for those who cannot speak for themselves. Together, we can create a better future for these vulnerable creatures. Please explore the donation options below to join us in making a real difference, your support truly matters to every paw and whisker we care for.
       </p>
 
       <div className="donate-gallery">

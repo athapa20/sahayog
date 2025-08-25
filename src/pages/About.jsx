@@ -4,14 +4,15 @@ import team2 from '../assets/team2.jpg';
 import team3 from '../assets/team3.jpg';
 import team4 from '../assets/team4.jpg';
 import team5 from '../assets/team5.jpg';
-//import team6 from '../assets/team6.jpg';
+// import team6 from '../assets/team6.jpg';
 
 export default function About() {
   return (
     <div className="about-page">
       <h1>About Us</h1>
       <p>
-        Sahayog is a newly founded non-profit organization, driven by a passionate group of animal lovers living in the USA, united by our love for animals and our deep connection to Nepal. Our mission is to support and care for animals in Nepal by providing a safe haven for those in need and educating the community on the importance of animal welfare and environmental conservation. Although we are just beginning our journey, our vision is clear: to create a world where every animal is treated with respect and kindness. Join us as we work together to make a difference.
+        Sahayog is a newly founded non-profit organization, driven by a passionate group of animal lovers living in the USA, united by our love for animals and our deep connection to Nepal.
+        Our mission is to support and care for animals in Nepal by providing a safe haven for those in need and educating the community on the importance of animal welfare and environmental conservation. Although we are just beginning our journey, our vision is clear: to create a world where every animal is treated with respect and kindness. Join us as we work together to make a difference.
       </p>
 
       <h2>Our Team</h2>

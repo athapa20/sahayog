@@ -9,21 +9,25 @@ import GetInvolved from './pages/GetInvolved';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
 
+import './App.css';
+
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <main style={{ minHeight: '80vh', padding: '2rem' }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/get-involved" element={<GetInvolved />} />
-          <Route path="/support" element={<Support />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <div className="app-background">
+      <Router>
+        <Navbar />
+        <main style={{ minHeight: '80vh', padding: '2rem' }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/get-involved" element={<GetInvolved />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

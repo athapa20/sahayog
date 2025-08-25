@@ -1,26 +1,39 @@
 .gallery-section {
   margin-top: 3rem;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #050676;
 }
 
 .get-involved-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #050676;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .get-involved-text {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  color: #f0f0f0;
 }
 
-.gallery-section {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+.get-involved-text a {
+  color: #f2de52;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.get-involved-text a:hover {
+  color: white;
+}
+
+.gallery-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: white;
 }
 
 .gallery-cards {
@@ -51,10 +64,10 @@
   object-fit: cover;
 }
 
-.gallery-card .caption {
+.gallery-caption {
   padding: 0.75rem;
   font-weight: 600;
   color: #050676;
-  background-color: #f2de52;
+  background-color: white;
   text-align: center;
 }

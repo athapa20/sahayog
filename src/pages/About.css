@@ -1,6 +1,10 @@
 .about-page h1,
 .about-page h2,
 .team-card h3 {
+  color: white;
+}
+
+.team-card h3 {
   color: #050676;
 }
 
@@ -56,5 +60,5 @@
 
 .team-card p {
   font-size: 0.95rem;
-  color: #555;
+  color: #050676;
 }
