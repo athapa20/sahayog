@@ -8,7 +8,7 @@ import { AiOutlineMedicineBox } from 'react-icons/ai';
 export default function Home() {
   return (
     <>
-      <a href="/support" className="floating-donate-button">
+      <a href="https://www.paypal.com/us/fundraiser/charity/5301004" className="floating-donate-button">
         🐾 Donate
       </a>
       <div className="home-container">
